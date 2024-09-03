@@ -14,7 +14,7 @@ public partial class frmMain : Form
 
     private void btnHello_Click(object sender, EventArgs e)
     {
-        lblStatus.Text = "Hello World!";
+        lblStatus.Text = "changed";
     }
 
     private void btnShow_Click(object sender, EventArgs e)
@@ -25,5 +25,6 @@ public partial class frmMain : Form
     private void btnClose_Click(object sender, EventArgs e)
     {
         this.Close();
+        // this is a change
     }
 }
