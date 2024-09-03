@@ -14,7 +14,7 @@ public partial class frmMain : Form
 
     private void btnHello_Click(object sender, EventArgs e)
     {
-        lblStatus.Text = "changed";
+        lblStatus.Text = "changed2";
     }
 
     private void btnShow_Click(object sender, EventArgs e)
